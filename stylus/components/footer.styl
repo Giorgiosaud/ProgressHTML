@@ -1,0 +1,61 @@
+footer{
+	display flex
+	flex-direction: column;
+}
+
+section.Links {
+	display: flex;
+	flex-direction: column;
+}
+
+.Menus {
+	display none;
+    flex: 1;
+}
+
+.Contactos {
+	flex: 1;
+	margin 0
+}
+
+.Subscripcion {
+    flex: 1;
+}
+
+.Menus,.Contactos,.Subscripcion{
+	margin-bottom 2em
+}
+footer {
+    color: white;
+    border-top: 10px green solid;
+    padding: 1em;
+}
+section.Copyleft {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+ul.Menus__links,.Contactos__Direccion,.Subscripcion__descripcion {
+    list-style: none;
+    padding: 0;
+    font-weight: 100;
+}
+
+.Menus__Titulo,.Contactos__Titulo,.Subscripcion__Titulo {
+    font-weight:600
+}
+@media(min-width:640px){
+	section.Links{
+	flex-direction:row
+	}
+	.Menus,.Contactos,.Subscripcion{
+	margin-bottom 0
+	}
+	.Menus{
+	display block;
+	}
+	.Contactos{
+		margin 0 2em
+	}
+}
