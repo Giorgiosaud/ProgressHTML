@@ -516,6 +516,7 @@ section.Links {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-top: 2em;
 }
 .Menus {
   display: none;
@@ -562,10 +563,63 @@ ul.Menus__links,
   padding: 0;
   font-weight: 100;
 }
+ul.Menus__links p a,
+.Contactos__Direccion p a,
+.Subscripcion__descripcion p a {
+  color: #fff;
+}
 .Menus__Titulo,
 .Contactos__Titulo,
 .Subscripcion__Titulo {
   font-weight: 600;
+  text-transform: uppercase;
+}
+.Contactos__Sociales {
+  font-size: 1.4em;
+}
+.Contactos__Sociales a {
+  margin: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+.Contactos__Sociales a:hover {
+  color: #6e6e6e;
+}
+section.Copyleft {
+  color: #808080;
+  margin-top: 2em;
+  font-size: 0.8em;
+}
+section.Copyleft {
+  color: #808080;
+  margin-top: 2em;
+  font-size: 0.8em;
+}
+.Subcsripcion__Formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.Subcsripcion__Formulario form {
+  width: 100%;
+  border: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Subcsripcion__Formulario form input[type="email"] {
+  -webkit-box-flex: 100%;
+  -ms-flex: 100%;
+  flex: 100%;
+  color: #000;
+  padding: 0 1em;
+  border: transparent;
+}
+.Subcsripcion__Formulario form button {
+  border: transparent;
+  padding: 0.5em 1.5em;
+  background: #0c5380;
 }
 @media (min-width: 640px) {
   section.Links {
@@ -573,14 +627,26 @@ ul.Menus__links,
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .Menus,
   .Contactos,
   .Subscripcion {
     margin-bottom: 0;
+    max-width: 330px;
+  }
+  .Menus a,
+  .Contactos a,
+  .Subscripcion a {
+    color: #fff;
   }
   .Menus {
     display: block;
+  }
+  .Menus__links li {
+    margin: 0.5em;
   }
   .Contactos {
     margin: 0 2em;
