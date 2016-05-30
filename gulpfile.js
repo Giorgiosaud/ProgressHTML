@@ -26,13 +26,13 @@ gulp.task('stylus', function() {
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: 'app'
+      proxy:'http://progresshtml.site/'
     },
   })
 })
-gulp.task('watch',['browserSync', 'stylus'],function(){
+gulp.task('watch',[ 'stylus'],function(){
 	gulp.watch('stylus/**/*.styl', ['stylus']); 
-	gulp.watch('app/*.html', browserSync.reload); 
-	gulp.watch('app/*.php', browserSync.reload); 
-	gulp.watch('app/js/**/*.js', browserSync.reload);
+//	gulp.watch('app/*.html', browserSync.reload); 
+//	gulp.watch('app/**/*.php', browserSync.reload); 
+//	gulp.watch('app/js/**/*.js', browserSync.reload);
 })
