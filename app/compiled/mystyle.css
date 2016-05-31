@@ -207,6 +207,19 @@ body {
 .Progress__Atributo__Resumen {
   width: 80%;
 }
+.Boton__Ir {
+  font-weight: bold;
+  padding: 0.5em 0.5em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  width: 15em;
+  margin: 1em;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #fff;
+}
 .EquipoDeTrabajo {
   color: #fff;
   overflow: hidden;
@@ -762,6 +775,122 @@ a.cotizar {
     -ms-flex: 2;
     flex: 2;
     margin: 2em 0;
+  }
+}
+section.Direccion.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 70%;
+  margin: 2em auto;
+}
+.Direccion__texto {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: 300;
+}
+.Direccion__mapa {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.Direccion__mapa #map {
+  min-height: 200px;
+  width: 100%;
+  height: 100%;
+}
+.Direccion__texto__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+/* justify-content: space-around; */
+}
+.Direccion__texto__socials a {
+  color: #fff;
+  background: #0c5380;
+  font-size: 1.5em;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+form.ContactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin: 1em auto;
+}
+.FormHalf {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.FormHalf:nth-child(1) {
+  text-align: left;
+}
+.FormHalf:nth-child(2) {
+  text-align: right;
+}
+.formField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.formField select {
+  height: 2.5em;
+}
+.formField input,
+.formField textarea,
+.formField select {
+  width: 95%;
+  border-radius: 10px;
+  border: none;
+  background: #f6f6f6;
+  padding: 0.5em;
+  margin-bottom: 10px;
+}
+.formField button {
+  border: transparent;
+  padding: 0.5em 1.5em;
+  background: #0c5380;
+  color: #fff;
+}
+.formField button[disabled] {
+  background: #f7f7f7;
+}
+@media (min-width: 768px) {
+  section.Direccion.container,
+  form.ContactForm {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 footer {

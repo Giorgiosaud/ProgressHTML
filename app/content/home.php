@@ -58,13 +58,21 @@
 				<div class="EquipoDeTrabajo__Flexible">
 					<div class="EquipoDeTrabajo__Contenedor">
 						<div class="EquipoDeTrabajo__Titulo">
-							<p>Equipo de trabajo</p>
+							<p>¿TIENES UNA PYME?</p>
 						</div>
 
 						<div class="EquipoDeTrabajo__Contenido">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							<p>
+							Estás contrareloj, cámbiate a la facturación electrónica hoy y obtén un  <strong>30% DE DESCUENTO.</strong>
+
 								</p><p>
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ad minim veniam, quis nostrud exercitation.</p>
+Promueve tu crecimiento rompiendo las limitaciones
+
+						
+						</p>
+					</div>
+					<div class="Boton__Ir">
+							<a href="fac_electronica.php">MÁS INFORMACIÓN</a>
 						</div>
 					</div>
 					<div class="EquipoDeTrabajo__imagen">

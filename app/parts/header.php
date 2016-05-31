@@ -19,6 +19,9 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 		<script src="compiled/bootstrap-3.3.6/dist/js/bootstrap.js"></script>
+		<!-- Sweet Alert -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 		<body>
 			<header class="navbar-fixed-top">
 				<?php include('topNavbar.php');?>
